@@ -2,17 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileApp.AboutPage"
-             Title="AboutPage">
+             Title="Despre Cafeaua Noastra ">
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
-            <Image Source="shop_list.png"
- SemanticProperties.Description="My Shopping List"
+            <Image Source="coffee_cup.png"
+ SemanticProperties.Description="Cafelele noastre"
 HeightRequest="64" />
-            <Label FontSize="22" FontAttributes="Bold" Text="My Shopping
-Lists" VerticalOptions="End" />
-            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Cafelele noastre " VerticalOptions="End" />
+            
         </HorizontalStackLayout>
-        <Label Text="This app will help you to manage your shopping lists" />
+        <Label Text="Espresso: O băutură de cafea concentrată preparată prin forțarea apei fierbinți prin cafea măcinată fin. Servește ca bază pentru multe alte tipuri de cafea."/>
+        <Label Text="Americano: Realizat prin diluarea unui shot de espresso cu apă fierbinte, asemănător cu cafeaua filtrată, dar cu o putere distinctă."/>
+        <Label Text="Cappuccino: Compus din părți egale de espresso, lapte aburit și lapte spumat, cappuccino are o textură cremoasă și este adesea presărat cu puțină cacao sau scorțișoară."/>
+        <Label Text="Latte: Similar cu un cappuccino, dar cu mai mult lapte aburit, rezultând o aromă mai fină și cremoasă. De obicei, are un strat subțire de spumă deasupra."/>
+        <Label Text="Macchiato: Un espresso cu o cantitate mică de lapte, oferind o aromă de cafea mai intensă cu o notă subtilă de cremozitate."/>
+        <Label Text="Flat White: Originar din Australia/Noua Zeelandă, constă într-un espresso cu microspumă (lapte aburit cu bule fine și catifelate) deasupra, oferind o aromă puternică de cafea cu o textură fină."/>
+        <Label Text="Cold Brew: Cafea preparată cu apă rece pe o perioadă îndelungată, rezultând o aromă mai netedă și mai puțin acidă. Adesea servită cu gheață."/>
+        <Label Text="Affogato: O cafea asemănătoare cu un desert, în care un shot de espresso fierbinte este turnat peste o lingură de înghețată de vanilie, creând o combinație plăcută de temperaturi și arome."/>     
+
 
     </VerticalStackLayout>
 
